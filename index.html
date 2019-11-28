@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Swap Quotes</title>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <header class="page-header">
+            <h1>JS Swap Quotes</h1>
+            <p>Swap single and double quotes.</p>
+        </header>
+        <div class="wrapper">
+            <form action="">
+                <div class="form-item">
+                    <textarea
+                        id="textarea">echo "'start": "browser-sync start --proxy \"my.domain\" --files \"wp-content/, !wp-content/themes/parsec/assets/css/**/*.scss\""";</textarea>
+                </div>
+                <div class="form-item btn-group">
+                    <button id="btn-convert" class="btn">Swap</button>
+                </div>
+            </form>
+            <div id="result"></div>
+        </div>
+        <div id="alert">
+            Quotes Swapped!
+            <a href="#" id="alert-close">
+                <i class="fa fa-times"></i>
+            </a>
+        </div>
+        <footer class="page-footer">
+            Thanks for visiting. Made with <i class="fa fa-heart"></i> by <a href="https://github.com/Asikur22"
+                target="_blank">Asique</a>
+        </footer>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
